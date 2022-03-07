@@ -1,0 +1,106 @@
+.project__card{
+   padding-bottom: 5rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+     &--content{
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: #ecf0f1;
+          padding: .8rem 1rem;
+          margin:1rem 1rem;
+          box-shadow: 0 0 .2rem rgba(0,0,0,0.4);
+          border-radius: 4px;
+               .img{
+                    img{
+                         width: 4rem;
+                         height: 4rem;
+                         object-fit: cover;
+                         margin-right: .5rem;
+                         border-bottom: 0.565rem;
+                         box-shadow: 0 0 .2rem rgba(0,0,0,0.4);
+                    }
+               }
+               .text{
+                    h2{
+                         font-size: 1rem;
+                         margin-bottom: 5px;
+                         font-weight: 600;
+                         font-family: geomanist;
+                         letter-spacing: 1px;
+                    }
+                    p{
+                         margin: 0;
+                         font-size: .8rem;
+                    }
+                    .tech{
+                         display: flex;
+                         flex-direction: row;
+                         margin: 10px 0;
+                              img{
+                                   margin: 0 5px;
+                                   width: 1.9rem;
+                                   height: 2rem;
+                              }
+                         
+                    }
+               }
+          
+     }
+}
+
+
+// pad
+
+.project__card-pad{
+     .project__card--content{
+          
+          
+          padding: 1rem 4rem;
+     }
+         
+}
+.project__card-large{
+     .project__card--content{
+     
+          padding: 2rem 6rem;
+          margin-top:3rem;
+          .img{
+               img{
+                    width: 7rem;
+                    height: 7rem;
+                    object-fit: cover;
+                    margin-right: 3rem;
+               }
+          }
+          .text{
+               h2{
+                    font-size: 1.2rem;
+                    margin-bottom: 5px;
+                    font-weight: 600;
+                    font-family: geomanist;
+                    letter-spacing: 1px;
+               }
+               p{
+                    margin: 0;
+                    font-size: 1rem;
+               }
+               .tech{
+                    display: flex;
+                    flex-direction: row;
+                    margin: 10px 0;
+                         img{
+                              margin: 0 5px;
+                              width: 2.5rem;
+                              height: 2.7rem;
+                         }
+                    
+               }
+          }
+
+     }
+         
+}

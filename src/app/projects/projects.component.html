@@ -1,0 +1,22 @@
+<div
+  class="project__card"
+  [ngClass]="{ 'project__card-pad': layout.padDevice$ | async }"
+  [ngClass]="{ 'project__card-large': layout.largeDevice$ | async }"
+>
+  <ng-container *ngFor="let project of projects">
+    <div class="project__card--content" (click)="onDetail(project.id)">
+      <div class="img">
+        <img src="../../assets/{{ project.img }}.svg" />
+      </div>
+      <div class="text">
+        <h2>{{ project.name }}</h2>
+        <p>{{ project.description }}</p>
+        <div class="tech">
+          <div *ngFor="let tech of project.tech">
+            <img src="../../assets/tech/{{ tech }}.svg" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </ng-container>
+</div>

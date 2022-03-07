@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.cdnfonts.com/css/geomanist');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body {
+  box-sizing: border-box;
+  background: linear-gradient(to right, #2193b0, #6dd5ed);
+  font-family: 'geomanist', 'Montserrat', sans-serif;
+}
+li {
+  list-style: none;
+}
+h2 {
+  font-family: 'Prata', serif;
+}

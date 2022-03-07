@@ -1,0 +1,22 @@
+<div class="detail" [ngClass]="{ 'detail-large': layout.largeDevice$ | async }">
+  <div class="detail--img">
+    <img src="../../../assets/{{ projectDetail.img }}.svg" />
+  </div>
+  <div class="detail--description">
+    <h4 class="text">{{ projectDetail.fullDescription }}</h4>
+    <p class="text">Frontend : {{ projectDetail.frontend }}</p>
+    <p class="text">Backend : {{ projectDetail.backend }}</p>
+    <p class="text" *ngIf="projectDetail.other">
+      Others : {{ projectDetail.other }}
+    </p>
+  </div>
+  <div class="detail--link">
+    <a [href]="projectDetail.link" target="__blank">
+      {{ projectDetail.link }}
+    </a>
+
+    <a *ngIf="projectDetail.videoLink" href="{{ projectDetail.videoLink }}">
+      Video Link
+    </a>
+  </div>
+</div>

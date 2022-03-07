@@ -1,0 +1,53 @@
+.tech {
+  margin: 2rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  div {
+    margin: 0.7rem;
+    transition: 0.5s;
+    svg {
+      width: 2rem;
+      height: 2rem;
+      cursor: pointer;
+      transition: 0.5s;
+    }
+    .express {
+      width: 4rem;
+    }
+    &:hover {
+      .html {
+        fill: #bd3a16;
+      }
+      .css {
+        fill: #005290;
+      }
+      .sass {
+        fill: #8f1a52;
+      }
+      .javascript {
+        fill: #b6a403;
+      }
+      .typescript {
+        fill: #0f4e92;
+      }
+      .nodejs {
+        fill: #237a06;
+      }
+      .angular {
+        fill: #a8022b;
+      }
+      .hide {
+        fill: #237a06;
+      }
+      .git {
+        fill: #000;
+        background: #fff;
+        border-radius: 50%;
+      }
+      .react {
+        fill: #005290;
+      }
+    }
+  }
+}
