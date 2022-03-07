@@ -4,7 +4,7 @@ export let projectsData = [
     id: '103-picture-frame',
     img: 'project',
     name: 'Picture Frame',
-    description: 'Try to make picture sharing app with ReactJs and Sanity',
+    description: 'Try to make picture sharing app',
     tech: ['React', 'Tailwind'],
     fullDescription:
       'It is Picture Sharing App. Implementing CRUD Operations using Sanity. Used React and Tailwind Css as a frontend also it is fully mobile responsive.',
