@@ -31,7 +31,7 @@ export let projectsData = [
     id: '103-github',
     img: 'work',
     name: 'Github Profiles',
-    description: 'Pulling all github users using github api',
+    description: 'Pulling github users using github api',
     tech: ['Angular'],
     fullDescription: `Using the GitHub public API, for a given GitHub username, display all public repos and stars.`,
     frontend: 'Angular, Ant Design for Angular',
