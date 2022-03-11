@@ -1,18 +1,6 @@
 import { Project } from './../interface/project.model';
 export let projectsData = [
   {
-    id: '103-picture-frame',
-    img: 'project',
-    name: 'Picture Frame',
-    description: 'Try to make picture sharing app',
-    tech: ['React', 'Tailwind'],
-    fullDescription:
-      'It is Picture Sharing App. Implementing CRUD Operations using Sanity. Used React and Tailwind Css as a frontend also it is fully mobile responsive.',
-    frontend: 'React JS, Tailwind CSS',
-    backend: 'Sanity',
-    link: 'https://frame-picture.netlify.app/',
-  },
-  {
     id: '101-ccguruji',
     img: 'work',
     name: 'Career Counseling guruji',
@@ -38,5 +26,28 @@ export let projectsData = [
     frontend: 'Angular',
     backend: 'Rapid API (RAWG Video Game Database)',
     link: 'https://angular-ivy-qdcmnf.stackblitz.io',
+  },
+  {
+    id: '103-github',
+    img: 'work',
+    name: 'Github Profiles',
+    description: 'Pulling all github users using github api',
+    tech: ['Angular'],
+    fullDescription: `Using the GitHub public API, for a given GitHub username, display all public repos and stars.`,
+    frontend: 'Angular, Ant Design for Angular',
+    backend: 'Github Public Api',
+    link: 'https://github.com/husainasfak/Angular---github',
+  },
+  {
+    id: '104-picture-frame',
+    img: 'project',
+    name: 'Picture Frame',
+    description: 'Try to make picture sharing app',
+    tech: ['React', 'Tailwind'],
+    fullDescription:
+      'It is Picture Sharing App. Implementing CRUD Operations using Sanity. Used React and Tailwind Css as a frontend also it is fully mobile responsive.',
+    frontend: 'React JS, Tailwind CSS',
+    backend: 'Sanity',
+    link: 'https://frame-picture.netlify.app/',
   },
 ];
