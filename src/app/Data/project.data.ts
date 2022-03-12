@@ -1,4 +1,5 @@
 import { Project } from './../interface/project.model';
+
 export let projectsData = [
   {
     id: '101-ccguruji',
@@ -7,7 +8,8 @@ export let projectsData = [
     description: 'Work on Startup ccguruji.com',
     tech: ['Angular', 'Expressjs', 'MySQL'],
     fullDescription:
-      'This website is down beacuse of personal reasons therefore link in no more active now. They are re-launch this website after may 2022. But I have video reference of the website.',
+      `This startup try to fix gap between student and counselors. I helped them to achieved their goals. In this website, I worked on different modules like Authentication, Admin Panel, Student Counseling process, Add more counselors to database etc.
+      This website is down beacuse of personal reasons therefore link in no more active now.But I have video reference of the website.`,
     frontend: 'Angular',
     backend: 'ExpressJS',
     Database: 'MySQL',
