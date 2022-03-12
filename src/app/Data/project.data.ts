@@ -7,9 +7,8 @@ export let projectsData = [
     name: 'Career Counseling guruji',
     description: 'Work on Startup ccguruji.com',
     tech: ['Angular', 'Expressjs', 'MySQL'],
-    fullDescription:
-      `This startup try to fix gap between student and counselors. I helped them to achieved their goals. In this website, I worked on different modules like Authentication, Admin Panel, Student Counseling process, Add more counselors to database etc.
-      This website is down beacuse of personal reasons therefore link in no more active now.But I have video reference of the website.`,
+    fullDescription: `This startup try to fix gap between student and counselors. I helped them to achieved their goals. In this website, I worked on different modules like Authentication, Admin Panel, Student Counseling process, Add more counselors to database etc.
+      This website is down beacuse of personal reasons therefore link in no more active now. But I have video reference of the website.`,
     frontend: 'Angular',
     backend: 'ExpressJS',
     Database: 'MySQL',
@@ -24,7 +23,8 @@ export let projectsData = [
     name: 'Gaming Console',
     description: 'Made a website for gaming freaks',
     tech: ['Angular', 'rapidapi'],
-    fullDescription: 'This is a personal project.',
+    fullDescription:
+      'This is a personal project. In this web app we can see various pc/mobile games and their about, also we can search the games with our preferences.',
     frontend: 'Angular',
     backend: 'Rapid API (RAWG Video Game Database)',
     link: 'https://angular-ivy-qdcmnf.stackblitz.io',
